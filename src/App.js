@@ -11,13 +11,14 @@ import { Category } from "./components/category";
 import { Playlist } from "./components/playlist";
 import { Index } from "./components/index";
 import { Album } from "./components/album";
+import { Privacy } from "./components/privacy"
 
 class App extends Component {
   state = {  }
   render() { 
     return (
       <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
         <Token>
         <GlobalState>
         <ShopContext>
@@ -31,6 +32,7 @@ class App extends Component {
             <Route path="/categories/:id" render={(props) => <Category data={props} />}/>
             <Route path="/playlists/:id" render={(props) => <Playlist data={props}/>}/>
             <Route path="/album/:id" render={(props) => <Album data={props}/>}/>
+            <Route path="/privacy" component={Privacy}/>
           </Switch>
 
         </ShopContext>

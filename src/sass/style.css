@@ -229,6 +229,23 @@ body {
           align-items: center;
 }
 
+.privacy-policy {
+  margin: 30px;
+  overflow: scroll;
+}
+
+.privacy-policy h2 {
+  margin: 30px;
+}
+
+.privacy-policy ol {
+  margin: 30px;
+}
+
+.privacy-policy p {
+  margin: 30px;
+}
+
 .fade-exit {
   opacity: 1;
 }
