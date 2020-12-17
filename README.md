@@ -1,6 +1,6 @@
 # Spotify shop
 
-![screenshot](https://github.com/psaarine/spotifyshop/preview_images/screenshot.png)
+![screenshot](https://github.com/psaarine/spotifyshop/blob/main/preview_images/screenshot.png)
 
 [gh-pages](https://psaarine.github.io/spotifyshop/)
 
